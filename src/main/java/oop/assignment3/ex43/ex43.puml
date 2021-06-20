@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class FileMaker {
+    - showWebsite
+    - showJava
+    - showCSS
+
+}
+
+class WebsiteMaker()
+{
+    - javaMaker
+    - cssMaker
+}
+
+
+@enduml

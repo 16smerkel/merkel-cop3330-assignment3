@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Dataset {
+    -name;
+    -price;
+    -quantity;
+    -otherProperties
+    +getName()
+    +setName()
+    +getPrice()
+    +setPrice
+    +getQuantity()
+    +setQuantity()
+}
+
+class checkDetector {
+    +spaceCheck()
+    +colonCheck()
+    +spaceApply()
+}
+
+@enduml

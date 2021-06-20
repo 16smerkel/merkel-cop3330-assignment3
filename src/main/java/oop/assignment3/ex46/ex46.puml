@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class FileThings {
+    +readInFile()
+}
+
+class MapWork {
+    -Map<String, Integer> theMap
+    -Map<String, Integer> sortedMap
+    +putInMap()
+    +printHistogram()
+}
+
+@enduml
